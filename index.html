@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jo Hui Young WEB PORTFOLIO</title>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/80a2be1de2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        
+    <!-- CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Open+Sans:wght@300;400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script src="js/Typing.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/webAuto.js"></script>
+    <script src="js/mobileSlide.js"></script>
+    <script src="js/homeAbout.js"></script>
+    
+</head>
+
+<body>
+
+    <!-- right icon menu -->
+    <ul id="menu">
+        <li data-menuanchor="anchor1">
+            <a href="#anchor1"><i class="fa-solid fa-star"></i></a>
+            <span>Home</span>
+        </li>
+        <li data-menuanchor="anchor2">
+            <a href="#anchor2"><i class="fa-solid fa-book-open"></i></a>
+            <span>Project 01</span>
+        </li>
+        <li data-menuanchor="anchor3">
+            <a href="#anchor3"><i class="fa-solid fa-shirt"></i></a>
+            <span>Project 02</span>
+        </li>
+        <li data-menuanchor="anchor4">
+            <a href="#anchor4"><i class="fa-solid fa-music"></i></a>
+            <span>Project 03</span>
+        </li>
+        <li data-menuanchor="anchor5">
+            <a href="#anchor5"><i class="fa-solid fa-lightbulb"></i></a>
+            <span>Project 04</span>
+        </li>
+        <li data-menuanchor="anchor6">
+            <a href="#anchor6"><i class="fa-solid fa-address-card"></i></a>
+            <span>About Me</span>
+        </li>
+    </ul>
+    
+    <div id="fullpage">     
+        
+        <!--section 1 : home-->
+        
+        <div class="section section-01">
+              <!-- particles.js container -->
+              <div translate="no">
+                <canvas id="canvas" width="100%" height="100%"></canvas>
+                  <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+                  <script src="js/particles.js" id="rendered-js"></script>
+                  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-5e03f34e38152f20eb79c96b0b89c2d99c5085e9ae9386dc71e2f0b3c30bf513.js"></script>
+              </div>
+
+            <h1>WEB</h1>
+            <h1>DEVELOPER</h1>
+            <span>HTML / CSS / JQUERY / JAVASCRIPT / OPEN API / JSON / AJAX / RESPONSIVE WEB SITE / REACT</span>
+            
+        </div>
+        
+        
+
+        <!-- project 01 -->
+        <div class="section project_01">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>01</em></h1>
+                    <h2>INTERPARK</h2>
+                    <h4>Book Store (Open API / Json)</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>"인터파크" 도서 사이트의 클론 사이트 입니다.<br/><br/>
+                        페이지내에 KaKao open Api의 데이터를 활용<br/>
+                        AJAX로 책들의 정보를 불러왔습니다.<br/><br/>                        
+                        또한 Jquery를 활용하여 슬라이드나 배너를 구현<br/>
+                        많은양의 이벤트나 혜택을 한번에 알려주게 하였습니다.<br/><br/>                        
+                        다양한 추천 도서들을 한눈에 볼 수 있도록 구현했습니다.<br/><br/>
+                        도서를 구매할 수 있는 Sub Page도 함께 제작했습니다.
+                        </p>
+                    <a href="https://huiiii0.github.io/interpark_final/index.html" target="_blank" class="btn_main">MAIN PAGE</a>
+                    <a href="https://huiiii0.github.io/interpark_final/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+                </div>
+
+                
+                
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="interpark">
+                            <li><img src="img/interpark_web2.png" alt="web2"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="interpark_box" onclick="window.open('https://huiiii0.github.io/interpark_final/index.html')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- project 02 -->
+        <div class="section project_02">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>02</em></h1>
+                    <h2>ESTORE.</h2>
+                    <h4>React Website (Redux / Router)</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>"Estore."의 홈페이지입니다.<br/><br/>
+                        사용자에 맞게 반응할 수 있도록<br/>
+                        반응형 싱글 웹페이지로 제작 했습니다.<br/><br/>
+                        react-bootstrap의 Container,Nav,<br/>Navbar,NavDropdown 등을사용<br/><br/>
+                        react-icons의 아이콘 사용<br/><br/>
+                        react-router-dom의 useParams, useNavigate,<br/> Route, Router, Link, Routes 등이 사용했습니다.
+                    </p>
+                        <a href="https://huiiii0.github.io/shop/" target="_blank" class="btn_main">MAIN PAGE</a>
+                </div>
+
+                <div class="mobile">
+                    <div class="mobile_box" onclick="window.open('https://huiiii0.github.io/shop/')">
+                        <ul>
+                            <li><img src="img/react_shop_moimg1.png"></li>
+                            <li><img src="img/react_shop_moimg2.png"></li>
+                            <li><img src="img/react_shop_moimg3.png"></li>
+                            <li><img src="img/react_shop_moimg4.png"></li>
+                            <li><img src="img/react_shop_moimg5.png"></li>
+                            <li><img src="img/react_shop_moimg6.png"></li>
+                            <li><img src="img/react_shop_moimg7.png"></li>
+                            <li><img src="img/react_shop_moimg8.png"></li>
+                            <li><img src="img/react_shop_moimg9.png"></li>
+                            <li><img src="img/react_shop_moimg10.png"></li>
+                            <li><img src="img/react_shop_moimg11.png"></li>
+                            <li><img src="img/react_shop_moimg12.png"></li>
+                            <li><img src="img/react_shop_moimg13.png"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="estore">
+                            <li><img src="img/react_shop.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="estore_box" onclick="window.open('https://huiiii0.github.io/shop/')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- project 03 -->
+        <div class="section project_03">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>03</em></h1>
+                    <h2>THE GEM</h2>
+                    <h4>Responsive Website(One page)</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>"Music Festival" 홍보 웹페이지입니다.<br/><br/>
+                        페이지 전체적인 구성은 full page를 사용<br/>
+                        background-image를 주어 이미지를 부각 시켰습니다.<br/><br/>
+                        메인에 header를 고정 시켰습니다.<br/>
+                        header에는 페이지마다 이름을 지정<br/>
+                        누르면 페이지가 이동하게 만들었습니다.<br/><br/>
+                        베이스 컬러는 콘서트 이미지와 어울리는 violet 계열을 사용<br/>
+                        포인트로는 pink를 섞어 화려한 느낌을 주었습니다.</p>
+                    <a href="https://huiiii0.github.io/fesvival_web/#0" target="_blank" class="btn_main">MAIN PAGE</a>                    
+                </div>
+
+                <div class="pofomobile">
+                    <div class="pofomobile_box" onclick="window.open('https://huiiii0.github.io/fesvival_web/#0')">
+                        <ul>
+                            <li><img src="img/festival_mo_img1.png"></li>
+                            <li><img src="img/festival_mo_img2.png"></li>
+                            <li><img src="img/festival_mo_img3.png"></li>
+                            <li><img src="img/festival_mo_img4.png"></li>
+                            <li><img src="img/festival_mo_img5.png"></li>
+                            <li><img src="img/festival_mo_img6.png"></li>
+                            <li><img src="img/festival_mo_img7.png"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="gem">
+                            <li><img src="img/festival_web.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="gem_box" onclick="window.open('https://huiiii0.github.io/fesvival_web/#0')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- project 04 -->
+        <div class="section project_04">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>04</em></h1>
+                    <h2>DK조명</h2>
+                    <h4>Shopping Mall (Json / Ajax)</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>조명을 판매하는 쇼핑몰입니다.<br/><br/>
+                        배경에 흰색을 사용하여 제품들이 돋보여지도록 하였습니다.<br/><br/>
+                        네비게이션의 서브 카테고리를 제작하여<br/><br/>
+                        방문자가 상품 이미지에 집중할 수 있도록 폰트 사이즈,<br/>배경색, 글자색을 절제하여 사용하였습니다<br/><br/>
+                        메인페이지보다 더 많은 상품을 찾아볼 수 있게 하였습니다.<br/><br/>
+                        상품 구매페이지인 Sub Page도 함께 제작하였습니다.
+                    </p>
+                    <a href="https://huiiii0.github.io/jmweb/" target="_blank" class="btn_main">MAIN PAGE</a>
+                    <a href="https://huiiii0.github.io/jmweb/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+                </div>
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="dkjm">
+                            <li><img src="img/jm_web.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="dkjm_box" onclick="window.open('https://huiiii0.github.io/jmweb/')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       <!-- section 6 : About Me -->
+       
+    <div class="section section-06">
+        <div class="profile_wrap">
+            <div class="profile">
+                <div class="myphoto">
+                    <div class="profileimg">
+                        <img src="img/profile.jpg" alt="profile">
+                    </div>
+                    
+                    <div class="profiletxt">
+                        <h3>조휘영&ensp;<em>Jo Hui Young</em></h3>
+                        
+                        <table>
+                            <tr>
+                                <th>BIRTH</th>
+                                <td>1994. 06. 03.</td>
+                            </tr>
+                            <tr>
+                                <th>AGE</th>
+                                <td>29</td>
+                            </tr>
+                            <tr>
+                                <th>MOBILE</th>
+                                <td>010-3397-0603</td>
+                            </tr>
+                            <tr>
+                                <th>E-MAIL</th>
+                                <td>whee0924@naver.com</td>
+                            </tr>
+                        </table>
+                        
+                        
+                        <div class="introtxt">
+                            <h5><em>About Me</em></h5>
+                            <p>트렌디하고 편리한 웹 사이트, 웹 서비스를 개발합니다.<br>
+                                도전을 좋아하고 경험을 중요시합니다.<br>
+                                도전과 경험을 토대로 많은 사람들이 편리하게 사용할 수 있는 웹 사이트, 웹 서비스를 제공 하는것이 저의 목표입니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="info">                
+
+                <div style="margin-top:-50px;">
+                    <h4>EDUCATION</h4>
+                    <table>
+                        <tr>
+                            <th>2013.02&nbsp;&nbsp;</th>
+                            <td>숙지고등학교 졸업</td>
+                        </tr>
+                        <tr>
+                            <th>2020.02&nbsp;&nbsp;</th>
+                            <td>순천향대학교 전자정보공학과 졸업</td>
+                        </tr>                        
+                    </table>
+                </div>
+
+                <div>
+                    <h4>TRAINING</h4>
+                    <table>
+                        <tr>
+                            <td>수원이젠컴퓨터아카데미<br>
+                                스마트웹&콘텐츠 개발 UI/UX 웹퍼블리셔 과정 수료 (2022년 9월)</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div style="margin-top: -35px;">
+                    <h4 style="margin-bottom: 20px">SKILLS</h4>
+                    <p>JAVASCRIPT</p>
+                    <div class="container">
+                        <div class="skills js">70%</div>
+                    </div>
+
+                    <p>JQUERY</p>
+                    <div class="container">
+                        <div class="skills jq">80%</div>
+                    </div>
+
+                    <p>REACT</p>
+                    <div class="container">
+                        <div class="skills react">55%</div>
+                    </div>
+
+                    <p>JSON/AJAX</p>
+                    <div class="container">
+                        <div class="skills json">70%</div>
+                    </div>
+
+                    <p>OPEN API</p>
+                    <div class="container">
+                        <div class="skills oa">80%</div>
+                    </div>
+
+                    <p>RESPONSIVE WEB</p>
+                    <div class="container">
+                        <div class="skills resweb">80%</div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+       
+
+
+    </div>
+</body>
+
+</html>
